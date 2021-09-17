@@ -63,9 +63,9 @@ We insert required data into the table.
 
 We create a user and grant permissions using the following commands: 
 
-mysql> CREATE USER “testing”@”<ip>” IDENTIFIED BY “******”; 
+mysql> CREATE USER “testing”@”<ipv4-address>” IDENTIFIED BY “******”; 
 
-mysql> GRANT ALL PRIVILEGES ON *.* TO “testing”@”<ip>”; 
+mysql> GRANT ALL PRIVILEGES ON *.* TO “testing”@”<ipv4-address>”; 
 
 mysql> FLUSH PRIVILEGES;
 
