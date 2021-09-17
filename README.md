@@ -52,7 +52,7 @@ $sudo apt-get install apache2 libapache2-mod-php php
 
 After installation, we can check to see if the status is active. We now SSH into the private instance by using the following command:
 
-$ssh ubuntu@<ipv4-address>
+$ssh ubuntu@ipv4-address
 
 To install the MySQL server, the following command is executed:
 
@@ -63,9 +63,9 @@ We insert required data into the table.
 
 We create a user and grant permissions using the following commands: 
 
-mysql> CREATE USER “testing”@”<ipv4-address>” IDENTIFIED BY “******”; 
+mysql> CREATE USER “testing”@”ipv4-address” IDENTIFIED BY “******”; 
 
-mysql> GRANT ALL PRIVILEGES ON *.* TO “testing”@”<ipv4-address>”; 
+mysql> GRANT ALL PRIVILEGES ON *.* TO “testing”@”ipv4-address”; 
 
 mysql> FLUSH PRIVILEGES;
 
