@@ -20,7 +20,7 @@
 
 <?php
 
-$connection=mysqli_connect("172.31.107.149","root","Letmein11@","details");
+$connection=mysqli_connect("172.31.107.149","root","*******","details");
 if ($connection) {
         echo "Connection Established! <br>";
 } else {
@@ -91,7 +91,7 @@ CREATE TABLE pet (name VARCHAR(20), owner VARCHAR(20),species VARCHAR(20), sex C
 
 <?php
 
-$connection=mysqli_connect("10.0.2.32","santhosh","letmein1","details");
+$connection=mysqli_connect("10.0.2.32","santhosh","******","details");
 if ($connection) {
         echo "Connection Established! <br>";
 } else {
